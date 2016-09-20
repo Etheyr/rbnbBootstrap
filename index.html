@@ -1,12 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <!--CODE ROMAIN-->
 <head>
+
 	<title>Bootstrap Exemple</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,225 +26,277 @@
 
 <!--Dylan Header -->
 
-<nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container-fluid">
-
-
-		<div class="navbar-header">	
-			<a class="navbar-brand" href="#">
-				<img alt="Brand" src="https://unsplash.it/50/50/?random">
-			</a>
+<header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<ul class="nav navbar-nav">
+					<li>
+						<span>
+							<a href="#"><img src="https://unsplash.it/50/50/?random" alt=""></a>
+						</span>
+					</li>
+					<li>
+						<form class="navbar-form navbar-left" role="search">
+							<div>					
+								<span class="glyphicon glyphicon-search" aria-hidden="true"></span>	
+								<input type="text" class="form-control" placeholder="Oû?">
+								<a href="#"><button type="button" class="btn btn-default">Devenez hôte</button></a>	
+							</div>
+						</form>
+					</li>	
+					<li><a href="#">Aide</a></li>
+					<li><a href="#">Inscription</a></li>
+					<li><a href="#">Connexion</a></li>	
+				</ul>
+			</div>
 		</div>
-
-
-		<div class="nav navbar-nav">
-			<ul class="nav navbar-nav">
-				<li><a href="#">Aide</a></li>
-				<li><a href="#">Inscription</a></li>
-				<li><a href="#">Connexion</a></li>
-			</ul>
-		</div>
-
-	</div>
-</nav>
+	</nav>
+</header>
 <!--Dylan Header -->
 
 
-
-<!--Code Axel-->
-<div class="col-md-8"><img src="https://unsplash.it/1000/300
-	" alt="..." class="img-thumbnail"></div>
-	<button type="button" class="btn btn-default btn-lg">Estimer mes revenus</button>
+<!--code axel-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<img src="https://unsplash.it/1200/203" alt="..." class="img-thumbnail">
+		</div>
+	</div>
+	<button type="button" class="btn btn-default btn-lg btn-block">Estimer mes revenus</button>
 	<div class="text_body">
-		<h1>Ouvrez la porte à un voyageur et à une nouvelle vie</h1>
-		<p>Gagnez de l'argent en accueillant des voyageurs.</p>
+		<h1 class="text-center">Ouvrez la porte à un voyageur et à une nouvelle vie</h1>
+		<p class="text-center">Gagnez de l'argent en accueillant des voyageurs.</p>
 		<div class="text_body1">
 			<h1 class="text-center">Juste pour le Week-end</h1>
 			<p class="text-center">Découvrez de nouveaux logements incroyables près de chez vous.</p>
 		</div>
-		<div class="col-md-4"><img src="https://unsplash.it/300/300
-			" alt="..." class="img-thumbnail"></div>
-			<div class="col-md-4"><img src="https://unsplash.it/300/300
-				" alt="..." class="img-thumbnail"></div>
-				<div class="col-md-4">	<img src="https://unsplash.it/300/300
-					" alt="..." class="img-thumbnail"></div>
-					<div class="button">
-						<button type="button" class="btn btn-default btn-lg btn-block">Voir toutes les destinations</button>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/398" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/402" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/401" alt="..." class="img-thumbnail">
+			</div>
+		</div>
+		<div class="button">
+			<button type="button" class="btn btn-default btn-lg btn-block">Voir toutes les destinations</button>
+		</div>
+		<div class="text_body2">
+			<h1 class="text-center">Explorez le monde </h1>
+			<p class="text-center">Découvrez les destinations les plus prisées à tavers le monde</p>
+		</div>
+		<div class="row">
+			<div class="col-md-8">	
+				<img src="https://unsplash.it/1500/698" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/399" alt="..." class="img-thumbnail">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/403" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/398" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/405s/400" alt="..." class="img-thumbnail">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">	
+				<img src="https://unsplash.it/400/300" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-8">
+				<img src="https://unsplash.it/801/300" alt="..." class="img-thumbnail">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/397" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/396" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/404" alt="..." class="img-thumbnail">
+			</div>
+		</div>	
+		<div class="text_body3">
+			<h1 class="text-center">Nouveaux ! les guides</h1>
+			<p class="text-center">Découvrez des centaines de bonne adresses recommandé</p>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="https://unsplash.it/401/394" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">
+				<img src="https://unsplash.it/400/393" alt="..." class="img-thumbnail">
+			</div>
+			<div class="col-md-4">	
+				<img src="https://unsplash.it/400/392" alt="..." class="img-thumbnail">
+			</div>
+			<div class="button2">
+				<button type="button" class="btn btn-default btn-lg btn-block">Découvrir tous les guides</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!--code axel-->
+
+
+<!--CODE ROMAIN-->
+<div>
+	<div id="my_carousel" class="carousel slide" data-ride="carousel">
+		<!-- Bulles -->
+		<ol class="carousel-indicators">
+			<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#my_carousel" data-slide-to="1"></li>
+			<li data-target="#my_carousel" data-slide-to="2"></li>
+		</ol>
+		<!-- Slides -->
+		<div class="carousel-inner">
+			<!-- Page 1 -->
+			<div class="item active">  
+				<div class="carousel-page">
+					<img src="https://hd.unsplash.com/photo-1447834353189-91c48abf20e1" alt="Montagne ensoleiller" class="img-responsive" />
+				</div> 
+				<div class="carousel-caption"> 
+					<h3>Montagne</h3>
+					<p>Une atmosphère spacieuse et ensoleiller</p>
+				</div>
+
+			</div>   
+			<!-- Page 2 -->
+			<div class="item"> 
+				<div class="carousel-page"><img src="https://hd.unsplash.com/photo-1443890484047-5eaa67d1d630" alt="Paysage rocheux sous un ciel couvert" class="img-responsive img-rounded"/></div> 
+				<div class="carousel-caption"> 
+					<h3>Paysage rocheux</h3>
+					<p>Une atmosphère de liberté et de bien être</p>
+				</div>
+			</div>  
+			<!-- Page 3 -->
+			<div class="item">  
+				<div class="carousel-page">
+					<img src="https://hd.unsplash.com/photo-1440847899694-90043f91c7f9"          alt="Fôret" class="img-responsive img-rounded"/>
+				</div>  
+				<div class="carousel-caption">
+					<h3>Fôret</h3>
+					<p>Une atmosphère détendu et plein de surprise</p>
+				</div>
+			</div>     
+		</div>
+		<!-- Contrôles -->
+		<a class="left carousel-control" href="#my_carousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#my_carousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+
+	<div class="text_body3">
+		<h2 class="text-center">Notre communauté</h2>
+	</div>
+	<div class="row">
+		<div class="col-md-3"><a href="#"><img src="https://placehold.it/350x600" alt="..." class="img-thumbnail"></a></div>
+		<div class="col-md-3"><a href="#"><img src="https://placehold.it/350x600" alt="..." class="img-thumbnail"></a></div>
+		<div class="col-md-3"><a href="#"><img src="https://placehold.it/350x600" alt="..." class="img-thumbnail"></a></div>
+		<div class="col-md-3"><a href="#"><img src="https://placehold.it/350x600" alt="..." class="img-thumbnail"></a></div>
+	</div>
+</div>
+
+<!--CODE ROMAIN-->
+
+
+<div class="container">
+
+<div class="row text-left">	
+<form class="form-online" role="form">
+		<select class="form-group">
+			<option>francais</option>
+			<option>english</option>
+			<option>Breton</option>
+			<option>Spanich</option>
+			<option>mexicain</option>
+		</select>
+	</form>
+</div>
+
+<div class="row text-left">
+	<form class="form-online" role="form" >
+		<select class="form-group">
+			<option>eur</option>
+			<option>livres</option>
+			<option>beurre</option>
+			<option>$</option>
+			<option>cacahuetes</option>
+		</select>
+	</form>
+</div>
+
+<div class="col-md-4 text-center">
+	<div class="caption">
+		<h3>Societe</h3>
+		<ul>
+			<a href="#"><li>super emmployees</li></a>
+			<a href="#"><li>chiffres</li></a>
+			<a href="#"><li>où sommes nous?</li></a>
+		</ul>
+	</div>
+</div>
+<div class="col-md-4 text-center">
+	<div class="caption">
+		<h3>Decouvrir</h3>
+		<ul>
+			<a href="#"><li>consectetur</li></a>
+			<a href="#"><li>Aperiam, atque</li></a>
+			<a href="#"><li>Eum sed doloremque</li></a>
+			<a href="#"><li> voluptatem</li></a>
+		</ul>
+	</div>
+</div>
+<div class="col-md-4 text-center">
+	<div class="caption">
+		<h3>Hebergement</h3>
+		<ul>
+			<a href="#"><li>Lorem ipsum dolor sit amet</li></a>
+			<a href="#"><li>consectetur adipisicing elit.</li></a>
+			<a href="#"><li> A laborum, error quae harum</li></a>
+		</ul>
+	</div>
+</div>
+
+<div class="col-md-8 text-right">
+	<div class="social ">
+		<hr style="width: 350%; color: black; height: 1px; background-color:black;" />
+		<a href="#"><i class="fa fa-facebook fa-2x"></i> 
+			<a href="#"><i class="fa fa-google-plus-square fa-2x"></i>
+				<a href="#"><i class="fa fa-twitter fa-2x"></i>
+					<a href="#"><i class="fa fa-instagram fa-2x"></i>
+						<a href="#"><i class="fa fa-pinterest-p fa-2x"></i>
+							<a href="#"><i class="fa fa-youtube-play fa-2x"></i>
+								<a href="#">
+									Messages 
+									<span class="badge">3500</span>
+								</a>
+							</div>
+						</div>
+
+
+
 					</div>
-					<div class="text_body2">
-						<h1 class="text-center">Explorez le monde </h1>
-						<p class="text-center">Découvrez les destinations les plus prisées à tavers le monde</p>
-					</div>
-					<div class="row">
-						<div class="col-md-8">	<img src="https://unsplash.it/1000/300
-							" alt="..." class="img-thumbnail"></div>
-							<div class="col-md-4"><img src="https://unsplash.it/300/300
-								" alt="..." class="img-thumbnail"></div>
-								<div class="col-md-4"><img src="https://unsplash.it/300/300
-									" alt="..." class="img-thumbnail"></div>
-									<div class="col-md-4"><img src="https://unsplash.it/300/300
-										" alt="..." class="img-thumbnail"></div>
-										<div class="col-md-4"><img src="https://unsplash.it/300/300
-											" alt="..." class="img-thumbnail"></div>
-											<div class="col-md-4">	<img src="https://unsplash.it/300/300
-												" alt="..." class="img-thumbnail"></div>
-												<div class="col-md-8"><img src="https://unsplash.it/1000/300
-													" alt="..." class="img-thumbnail"></div>
-													<div class="col-md-4"><img src="https://unsplash.it/300/300
-														" alt="..." class="img-thumbnail"></div>
-														<div class="col-md-4"><img src="https://unsplash.it/300/300" alt="..." class="img-thumbnail"></div>
-														<div class="col-md-4"><img src="https://unsplash.it/300/300
-															" alt="..." class="img-thumbnail"></div>
-														</div>	
-														<div class="text_body3">
-															<h2 class="text-center">Nouveaux ! les guides</h2>
-															<p class="text-center">Découvrez des centaines de bonne adresses recommandé</p>
-														</div>
-														<div class="col-md-4"><img src="https://unsplash.it/300/300
-															" alt="..." class="img-thumbnail"></div>
-															<div class="col-md-4"><img src="https://unsplash.it/300/300
-																" alt="..." class="img-thumbnail"></div>
-																<div class="col-md-4">	<img src="https://unsplash.it/300/300" alt="..." class="img-thumbnail">
-																</div>
-																<div class="button2">
-																	<button type="button" class="btn btn-default btn-lg btn-block">Voir toutes les destinations</button>
-																</div>
-																<!--Code Axel-->
-
-																<!--CODE ROMAIN-->
-
-																<div id="my_carousel" class="carousel slide" data-ride="carousel">
-																	<!-- Bulles -->
-																	<ol class="carousel-indicators">
-																		<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-																		<li data-target="#my_carousel" data-slide-to="1"></li>
-																		<li data-target="#my_carousel" data-slide-to="2"></li>
-																	</ol>
-																	<!-- Slides -->
-																	<div class="carousel-inner">
-																		<!-- Page 1 -->
-																		<div class="item active">  
-																			<div class="carousel-page">
-																				<img src="https://hd.unsplash.com/photo-1447834353189-91c48abf20e1" alt="Montagne ensoleiller" class="img-responsive" />
-																			</div> 
-																			<div class="carousel-caption"> 
-																				<h3>Montagne</h3>
-																				<p>Une atmosphère spacieuse et ensoleiller</p>
-																			</div>
-
-																		</div>   
-																		<!-- Page 2 -->
-																		<div class="item"> 
-																			<div class="carousel-page"><img src="https://hd.unsplash.com/photo-1443890484047-5eaa67d1d630" alt="Paysage rocheux sous un ciel couvert" class="img-responsive img-rounded"/></div> 
-																			<div class="carousel-caption"> 
-																				<h3>Paysage rocheux</h3>
-																				<p>Une atmosphère de liberté et de bien être</p>
-																			</div>
-																		</div>  
-																		<!-- Page 3 -->
-																		<div class="item">  
-																			<div class="carousel-page">
-																				<img src="https://hd.unsplash.com/photo-1440847899694-90043f91c7f9" alt="Fôret" class="img-responsive img-rounded"/>
-																			</div>  
-																			<div class="carousel-caption">
-																				<h3>Fôret</h3>
-																				<p>Une atmosphère détendu et plein de surprise</p>
-																			</div>
-																		</div>     
-																	</div>
-																	<!-- Contrôles -->
-																	<a class="left carousel-control" href="#my_carousel" data-slide="prev">
-																		<span class="glyphicon glyphicon-chevron-left"></span>
-																	</a>
-																	<a class="right carousel-control" href="#my_carousel" data-slide="next">
-																		<span class="glyphicon glyphicon-chevron-right"></span>
-																	</a>
-																</div>
-																<!--CODE ROMAIN-->
-																<!--matth-->
-																
-																<div class="container">
-
-																	<div class="row text-left">																				<form class="form-online" role="form">
-																		<select class="form-group">
-																			<option>francais</option>
-																			<option>english</option>
-																			<option>Breton</option>
-																			<option>Spanich</option>
-																			<option>mexicain</option>
-																		</select>
-																	</form>
-																</div>
-
-																<div class="row text-left">
-																	<form class="form-online" role="form" >
-																		<select class="form-group">
-																			<option>eur</option>
-																			<option>livres</option>
-																			<option>beurre</option>
-																			<option>$</option>
-																			<option>cacahuetes</option>
-																		</select>
-																	</form>
-																</div>
-
-																<div class="col-md-4 text-center">
-																	<div class="caption">
-																		<h3>Societe</h3>
-																		<ul>
-																			<a href="#"><li>super emmployees</li></a>
-																			<a href="#"><li>chiffres</li></a>
-																			<a href="#"><li>où sommes nous?</li></a>
-																		</ul>
-																	</div>
-																</div>
-																<div class="col-md-4 text-center">
-																	<div class="caption">
-																		<h3>Decouvrir</h3>
-																		<ul>
-																			<a href="#"><li>consectetur</li></a>
-																			<a href="#"><li>Aperiam, atque</li></a>
-																			<a href="#"><li>Eum sed doloremque</li></a>
-																			<a href="#"><li> voluptatem</li></a>
-																		</ul>
-																	</div>
-																</div>
-																<div class="col-md-4 text-center">
-																	<div class="caption">
-																		<h3>Hebergement</h3>
-																		<ul>
-																			<a href="#"><li>Lorem ipsum dolor sit amet</li></a>
-																			<a href="#"><li>consectetur adipisicing elit.</li></a>
-																			<a href="#"><li> A laborum, error quae harum</li></a>
-																		</ul>
-																	</div>
-																</div>
-
-																<div class="col-md-8 text-right">
-																	<div class="social ">
-																	<hr style="width: 350%; color: black; height: 1px; background-color:black;" />
-																		<a href="#"><i class="fa fa-facebook fa-2x"></i> 
-																			<a href="#"><i class="fa fa-google-plus-square fa-2x"></i>
-																				<a href="#"><i class="fa fa-twitter fa-2x"></i>
-																					<a href="#"><i class="fa fa-instagram fa-2x"></i>
-																						<a href="#"><i class="fa fa-pinterest-p fa-2x"></i>
-																							<a href="#"><i class="fa fa-youtube-play fa-2x"></i>
-																								<a href="#">
-																									Messages 
-																									<span class="badge">3500</span>
-																								</a>
-																							</div>
-																						</div>
 
 
+				</body>
+				</html>
 
-																					</div>
-
-
-																				</body>
-																				</html>
-
-																				<!--matth-->
+				<!--matth-->
 
 
 
