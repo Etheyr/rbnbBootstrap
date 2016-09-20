@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "bootstrap",
+=======
+  "name": "airbnb2",
+>>>>>>> 4ef4218df59a16bf5800b1364c95ce53ea744e85
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
